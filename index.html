@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+    <div class="main">
+
+        <div class="container">
+    
+            <h1>QUIZ APP</h1>
+    <br>
+    
+    <div id="ques">
+        <h3 id="headques"></h3>
+        <ul id="ul">
+            <li class="options" onclick="selecte(0)"></li>
+            <li class="options" onclick="selecte(1)"></li>
+            <li class="options" onclick="selecte(2)"></li>
+            <li class="options" onclick="selecte(3)"></li>
+        </ul>
+    </div>
+    
+    <br>
+    <button onclick="start()" id="srt">Start Quiz</button>
+    <button onclick="nextfun()" id="net"><i class="fa-solid fa-right-long"></i></button>
+    
+    <h3 id="score"></h3>
+            <!-- container-closing -->
+        </div>
+    
+    
+    
+    <!-- main-closing -->
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

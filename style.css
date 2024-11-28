@@ -1,0 +1,140 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    max-width: 100vw;
+    height: 100vh;
+    padding: 1em;
+    /* background-color: rgb(0, 27, 54); */
+    background-image: url(https://t4.ftcdn.net/jpg/07/95/36/05/360_F_795360583_oWlvz2LmzTkyMhQAHyJtd7QM4vfxKSWq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.container{
+width: 50%;
+height: auto;
+padding: 2em;
+/* background-color: azure; */
+background-color: #d09eff;
+border-radius: 6px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+#ques{
+    width: 80%;
+}
+
+
+#net{
+    display: none;
+    border: none;
+    outline: none;
+    width: 130px;
+    height: 40px;
+    font-size: 1.5em;
+    border-radius: 4px;
+    color: #d09eff;
+    /* background-color: rgb(0, 57, 82); */
+    background-color: rgb(75, 159, 255);
+    /* background-color: #00ff5e; */
+  
+}
+
+#srt{
+    
+    border: none;
+    outline: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    /* background-color: rgb(0, 57, 82); */
+    background-color: rgb(255, 88, 88);
+    /* background-color: #00ff5e; */
+  
+}
+
+
+
+#net:hover{
+    background-color: rgb(3, 203, 3);
+    }
+    
+    #ul{
+    list-style-type: none;
+    display: none;
+    width: 100%;
+    cursor: pointer;
+    }
+    
+    li{
+        width: 100%;
+        text-align: center;
+        padding: 0.5em;
+        margin-top: 1em;
+        /* background-color: rgb(0, 27, 54); */
+        background-color: #ffe4c4;
+        color: rgb(0, 0, 0);
+        border-radius: 4px;
+    }
+    
+    li:hover{
+        background-color: #007BFF !important;
+    }
+    
+
+
+/* mediaqueries */
+
+
+
+@media (max-width:670px){
+
+    .ques{
+        width: 100%;
+    }
+    .container{
+        width: 80%;
+    }
+}
+
+@media (max-width:450px){
+
+    .container{
+       width: 100%;
+    }
+    .ques{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:350px){
+
+    .container{
+      padding: 0.5em;
+      padding-bottom: 2em;
+      padding-top: 2em;
+    }
+
+    li{
+        margin-left: -0.6em;
+    }
+}
